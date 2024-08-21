@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e6ff; /* Light purple background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #5a189a; /* Darker purple for headings */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    background-color: #7b2cbf; /* Purple header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px;
+    margin: 20px auto;
+    background-color: #f8f0ff; /* Very light purple for section backgrounds */
+    border-radius: 10px;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Row and Column Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.column {
+    flex: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Education Section - FIU Logo */
+.logo {
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #7b2cbf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
